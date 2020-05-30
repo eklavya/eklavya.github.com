@@ -19,6 +19,11 @@ plainwhite:
   navigation:
     - title: Resume
       url: "/resume"
+    - title: Categories
+      url: /categories/
+    - title: Tags
+      url: /tags/
+
   # generate social links in footer
   social_links:
     github:  eklavya
@@ -51,3 +56,6 @@ remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
