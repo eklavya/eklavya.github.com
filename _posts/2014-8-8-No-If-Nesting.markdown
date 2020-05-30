@@ -3,7 +3,7 @@ layout: post
 title: Deeply nested ifs? Combine functions
 date:   2014-8-8
 tags: [Scala, Functional Programming]
-categories: [Functional Programming]
+categories: [Scala, Functional Programming]
 ---
 
 Update: I didn't know about monads and functional programming at this point :D
