@@ -5,6 +5,8 @@ main {
   outline: none;
 }
 
+main .about { flex-shrink: 0; }
+
 /* Click Anywhere to Unfocus */
 html, body {
   height: 100%;
