@@ -14,6 +14,13 @@
       </h2>
       <p class="tagline">{{ site.plainwhite.tagline }}</p>
       <ul class="social">
+        {%- if site.plainwhite.social_links.email -%}
+        <a href="mailto:{{ site.plainwhite.social_links.email }}">
+          <li>
+            <i class="icon-mail-alt"></i>
+          </li>
+        </a>
+        {%- endif -%}
         {%- if site.plainwhite.social_links.github -%}
         <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
           <li>
